@@ -68,11 +68,30 @@ nav {
     font-weight: 600;
     padding: 5px 0;
     transition: all 0.5s ease;
-    border-bottom: none;
+    border-bottom: 2px solid var(--papaya-whip);
 }
 
 .menu__items:hover {
     color: blue;
     border-bottom: 2px solid red;
 }
+.phoneNumber {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.5;
+    transition: opacity 200ms;
+    cursor: pointer;
+}
+.phoneNumber:hover{
+    opacity: 1;
+}
+.media_icon_list{ 
+ transition: all 500ms;
+  
+}
+.media_icon_list:hover{
+    transform:scale(1.5);
+    cursor: pointer;
+   }
 
